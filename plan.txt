@@ -6,6 +6,9 @@
     - Dev Dependencies
         - nodemon
 [_] Create Express server - Create a server.js file
+[_] Install Laravel Mix ---> Is used to inorder to use the latest version of JavaScript and Scss for designing
+    -setup js and scss
+[-] Install tailwind css
 [-] Create Home Page using HTML and CSS
     - include Tailwind CSS
 [-] Create Cart Page

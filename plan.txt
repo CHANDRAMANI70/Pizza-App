@@ -5,16 +5,16 @@
         - ejs express-ejs-layouts
     - Dev Dependencies
         - nodemon
-[_] Create Express server - Create a server.js file
-[_] Install Laravel Mix ---> Is used to inorder to use the latest version of JavaScript and Scss for designing
+[+] Create Express server - Create a server.js file
+[+] Install Laravel Mix ---> Is used to inorder to use the latest version of JavaScript and Scss for designing
     -setup js and scss
-[-] Install tailwind css
-[-] Create Home Page using HTML and CSS
+[+] Install tailwind css
+[+] Create Home Page using HTML and CSS
     - include Tailwind CSS
-[-] Create Cart Page
+[+] Create Cart Page
     - order summary section
     - empty cart selection
-[-] Create order controller and link it in server.js
+[+] Create order controller and link it in server.js
 [-] Create orders view with table for customer and admin
 [-] Create orders single page with status
 [-] Create login page with route

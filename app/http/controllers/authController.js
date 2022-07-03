@@ -3,6 +3,10 @@ const bcrypt = require('bcrypt')
 const passport = require('passport')
 
 function authController(){
+
+    const _getRedirectUrl = (req) => {
+        return req.user.role === 'admin' ? '/admin/orders' : '/customer/orders'
+    }
     //factory function just returns an object
     return {
         //crud controller - create read update and delete
@@ -32,7 +36,9 @@ function authController(){
                         req.flash('error', info.message)
                         return next(err)
                     }
-                    return res.redirect('/')
+
+
+                    return res.redirect(_getRedirectUrl(req))
                 })
             })(req, res, next)
         },
